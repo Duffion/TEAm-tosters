@@ -576,6 +576,9 @@
         "name": "assets\\Orange button on socle.png",
         "smoothed": true,
         "userAdded": false
+<<<<<<< HEAD
+>>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
+=======
 >>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
       }
     ],
@@ -747,6 +750,22 @@
           "y": 466,
           "zOrder": 16,
 >>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 178,
+          "layer": "",
+          "locked": false,
+          "name": "OrangeButtonOnSocle",
+          "persistentUuid": "410f012f-f0aa-42ac-ad1f-dfb95e6fa6dd",
+          "width": 178,
+          "x": 146,
+          "y": 475,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1614,6 +1633,9 @@
               ]
             }
           ]
+<<<<<<< HEAD
+>>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
+=======
 >>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
         }
       ],
