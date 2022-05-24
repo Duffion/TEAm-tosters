@@ -354,6 +354,141 @@
         "name": "assets\\Yellow button.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orange button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -506,22 +641,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 107,
-          "layer": "",
-          "locked": false,
-          "name": "OrangeButton",
-          "persistentUuid": "5fa769d2-bab8-4293-9007-2dfca22c46af",
-          "width": 107,
-          "x": 198,
-          "y": 466,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 109,
           "layer": "",
           "locked": false,
@@ -531,6 +650,22 @@
           "x": 11,
           "y": 466,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "OrangeButton",
+          "persistentUuid": "acdbe352-6d95-4532-9a76-e0b531df78d3",
+          "width": 0,
+          "x": 182,
+          "y": 436,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -834,7 +969,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Bluebutton",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -843,7 +978,126 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Blue button.png",
+                      "image": "assets\\Bluebutton-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -884,46 +1138,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Green button.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "OrangeButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Orange button.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1083,6 +1297,46 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets\\Yellow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OrangeButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orange button.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
