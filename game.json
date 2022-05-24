@@ -230,6 +230,8 @@
         "name": "assets/Blank Button Green_Pressed.png",
         "smoothed": true,
         "userAdded": true
+<<<<<<< HEAD
+=======
       },
       {
         "alwaysLoaded": false,
@@ -354,6 +356,227 @@
         "name": "assets\\Yellow button.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bluebutton-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bluebutton-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orange button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebutton-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebutton-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange button on socle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange button on socle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Industrial Platformer Pack (110 assets)/PNG/Retina/Orange button on socle.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orangebuttononsocle-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orangebuttononsocle-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange button on socle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Orange button on socle.png",
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
       }
     ],
     "resourceFolders": []
@@ -365,8 +588,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Main",
+      "name": "Main",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -393,10 +616,18 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "height": 7,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
+<<<<<<< HEAD
+          "name": "Button",
+          "persistentUuid": "99512a92-056d-48e6-9606-83a78e35bf3e",
+          "width": 0,
+          "x": 220,
+          "y": 531,
+          "zOrder": 12,
+=======
           "name": "TaskBar",
           "persistentUuid": "77c5bf25-e3cc-49b5-892c-407e22fb0278",
           "width": 1225,
@@ -506,22 +737,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 107,
-          "layer": "",
-          "locked": false,
-          "name": "OrangeButton",
-          "persistentUuid": "5fa769d2-bab8-4293-9007-2dfca22c46af",
-          "width": 107,
-          "x": 198,
-          "y": 466,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 109,
           "layer": "",
           "locked": false,
@@ -531,6 +746,23 @@
           "x": 11,
           "y": 466,
           "zOrder": 16,
+>>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 178,
+          "layer": "",
+          "locked": false,
+          "name": "OrangeButtonOnSocle",
+          "persistentUuid": "410f012f-f0aa-42ac-ad1f-dfb95e6fa6dd",
+          "width": 178,
+          "x": 146,
+          "y": 475,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -538,24 +770,26 @@
       ],
       "objects": [
         {
-          "height": 32,
-          "name": "TaskBar",
+          "bold": false,
+          "italic": false,
+          "name": "Button",
+          "smoothed": true,
           "tags": "",
-          "texture": "NewFile-1-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "name": "BlankButtonGreen",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
+<<<<<<< HEAD
+          "string": "Click ME!",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+=======
           "animations": [
             {
               "name": "Pressed",
@@ -834,7 +1068,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Bluebutton",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -843,7 +1077,126 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Blue button.png",
+                      "image": "assets\\Bluebutton-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Bluebutton-8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -884,46 +1237,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Green button.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "OrangeButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Orange button.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1102,6 +1415,206 @@
               ]
             }
           ]
+        },
+        {
+          "name": "OrangeButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Orange button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OrangeButtonOnSocle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Orangebuttononsocle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orangebuttononsocle-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Orange button on socle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> 5edaefe9a72d80a65bbed4a8787597b6d4297a2e
         }
       ],
       "events": [
@@ -1111,34 +1624,94 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonPressed"
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "Button",
                 "",
-                "Left"
+                "yes",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Button",
+                "\"255;0;0\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Shop\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
-                "value": "KeyReleased"
+                "inverted": true,
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "Button",
                 "",
-                "Space"
+                "",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "Button",
+                "\"0;0;0\""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -1147,6 +1720,101 @@
           "ambientLightColorB": 32,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Shop",
+      "name": "Shop",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Button2",
+          "persistentUuid": "f1cf2925-b016-4ac1-86d7-818b7044e8c5",
+          "width": 0,
+          "x": 243,
+          "y": 188,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Button2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7541608,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
