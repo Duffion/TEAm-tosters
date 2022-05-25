@@ -36,8 +36,8 @@
       "name": "NewSprite11",
       "persistentUuid": "52694fe6-aacc-49e5-8bbd-c33a7da8f333",
       "width": 0,
-      "x": -109,
-      "y": -96,
+      "x": -123,
+      "y": -82,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,8 +100,8 @@
       "name": "Quit_Game",
       "persistentUuid": "64b3087b-527d-4cc3-aa03-bf938dfa70da",
       "width": 0,
-      "x": 1408,
-      "y": 927,
+      "x": 1405,
+      "y": 926,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -122,6 +122,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Fluef_Bones",
+      "persistentUuid": "d40b80c6-1c85-4a62-90aa-1744a91453cc",
+      "width": 0,
+      "x": 23,
+      "y": 69,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 90,
+      "layer": "",
+      "locked": false,
+      "name": "amount_of_Floof_Bones",
+      "persistentUuid": "1ae707fe-350d-4e60-9943-34abc56506c1",
+      "width": 2323,
+      "x": 417,
+      "y": 60,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -136,7 +168,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Quit Game",
+      "string": "Quit",
       "font": "",
       "characterSize": 60,
       "color": {
@@ -673,6 +705,46 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Fluef_Bones",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Floof Bones",
+      "font": "",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "amount_of_Floof_Bones",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": ":",
+      "font": "",
+      "characterSize": 70,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -1093,6 +1165,62 @@
           "parameters": [
             "NewSprite2",
             "\"dog 1\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "score",
+            "+",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "amount_of_Floof_Bones",
+            "=",
+            "GlobalVariableString(score)"
           ],
           "subInstructions": []
         }

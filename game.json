@@ -307,13 +307,119 @@
         "name": "Custimize Backround.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shoes-checker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shoes-checker.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "badboyshirt2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "badboyshirt2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clownhat2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clownhat2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "collar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "collar2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mininghat3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mininghat3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "monical-bowtie3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monical-bowtie3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "socks3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "socks3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "suit3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "suit3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tophat2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tophat2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "._doc00664220220525095349-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "._doc00664220220525095349-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662920220524140101-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662920220524140101-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "score",
+      "type": "string",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
