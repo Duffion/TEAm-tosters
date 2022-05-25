@@ -33,12 +33,28 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "HomeButton",
-      "persistentUuid": "fa5d336c-b4ee-4369-836e-2ebbc0ca84bb",
+      "name": "Cutimixe_Backround",
+      "persistentUuid": "b80329cd-fbb4-4f9c-81a0-6a350599d2b8",
       "width": 0,
-      "x": 1,
-      "y": 1,
+      "x": -45,
+      "y": -21,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 47,
+      "layer": "",
+      "locked": false,
+      "name": "HomeButton",
+      "persistentUuid": "08e25468-62cd-4bd3-8169-150034af993d",
+      "width": 144,
+      "x": 7,
+      "y": 4,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -64,6 +80,46 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "Cutimixe_Backround",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Custimize Backround.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
