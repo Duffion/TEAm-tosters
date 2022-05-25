@@ -1,16 +1,16 @@
 {
-  "b": 35,
+  "b": 155,
   "disableInputWhenNotFocused": true,
   "mangledName": "Home",
   "name": "Home",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
-  "r": 245,
+  "r": 155,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 240,
+  "v": 155,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1,
+    "zoomFactor": 1.0035999999999996,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -119,22 +119,6 @@
       "x": 525,
       "y": 756,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 740,
-      "layer": "",
-      "locked": false,
-      "name": "NewSprite6",
-      "persistentUuid": "d2adced4-e4bb-4a2c-9513-695f29941eb7",
-      "width": 784,
-      "x": 880,
-      "y": -4,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -649,6 +633,46 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "suit2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NewSprite11",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Backround",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "main bop fluff.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
