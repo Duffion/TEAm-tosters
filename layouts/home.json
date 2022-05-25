@@ -100,8 +100,8 @@
       "name": "FeedDog",
       "persistentUuid": "514f06d8-b09a-4e0b-9f0a-000ef77035ac",
       "width": 0,
-      "x": 1541,
-      "y": 927,
+      "x": 1468,
+      "y": 928,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -110,21 +110,57 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 645,
+      "height": 789,
       "layer": "",
       "locked": false,
       "name": "NewSprite2",
       "persistentUuid": "b0dac515-a16c-4617-9729-db2b11ddaf67",
-      "width": 559,
-      "x": 224,
-      "y": 71,
+      "width": 753,
+      "x": 596,
+      "y": 0,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Quit_Game",
+      "persistentUuid": "9d1a0962-5899-49ef-a1c6-f82ea81d340a",
+      "width": 0,
+      "x": 8,
+      "y": 13,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Quit_Game",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Quit Game",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
     {
       "bold": true,
       "italic": false,
@@ -695,6 +731,113 @@
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Shop,Petshop, custimize, feed doggo and quit game buttons>",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Quit_Game",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Quit_Game",
+            "\"0;0;0\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Quit_Game",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Quit_Game",
+            "\"255;0;0\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
