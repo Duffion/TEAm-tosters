@@ -33,12 +33,28 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "HomeButton",
-      "persistentUuid": "d1acb4f7-f4fb-4d33-933b-00d59658a99d",
+      "name": "ShopBackround",
+      "persistentUuid": "94fc8bed-eac0-45e0-99e6-158464c3ac68",
       "width": 0,
-      "x": 1,
-      "y": 1,
+      "x": -110,
+      "y": -1,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "HomeButton",
+      "persistentUuid": "34a8ddad-f539-4cb6-b4a6-c4cdfc6acd86",
+      "width": 0,
+      "x": 2,
+      "y": 1,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -64,6 +80,46 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "ShopBackround",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Shop BAckround2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
