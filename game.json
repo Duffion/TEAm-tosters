@@ -244,6 +244,24 @@
         "name": "main bop fluff.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Main Backround .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Backround .png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Main Backround 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Backround 2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

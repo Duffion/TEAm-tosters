@@ -34,43 +34,11 @@
       "layer": "",
       "locked": false,
       "name": "NewSprite11",
-      "persistentUuid": "e347af22-dcc4-440d-a184-eefc6a6f0f00",
+      "persistentUuid": "52694fe6-aacc-49e5-8bbd-c33a7da8f333",
       "width": 0,
-      "x": -42,
-      "y": -324,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Shop",
-      "persistentUuid": "347cec03-e544-402a-9a40-61f2e346a4f3",
-      "width": 0,
-      "x": 91,
-      "y": 923,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "CustomizeDog",
-      "persistentUuid": "3c085e54-75df-4c2e-8e4e-e7776155f89a",
-      "width": 0,
-      "x": 539,
-      "y": 927,
-      "zOrder": 10,
+      "x": -109,
+      "y": -96,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -82,11 +50,27 @@
       "layer": "",
       "locked": false,
       "name": "PetStore",
-      "persistentUuid": "750385d5-3490-4c08-82f7-0ec6f58d7c72",
+      "persistentUuid": "ce986672-338e-4562-84d0-e40d2c92bb25",
       "width": 0,
-      "x": 1066,
+      "x": 178,
+      "y": 923,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 61,
+      "layer": "",
+      "locked": false,
+      "name": "CustomizeDog",
+      "persistentUuid": "9a57d316-de26-4e51-903a-b5486ce89df3",
+      "width": 253,
+      "x": 737,
       "y": 929,
-      "zOrder": 11,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -97,28 +81,12 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "FeedDog",
-      "persistentUuid": "514f06d8-b09a-4e0b-9f0a-000ef77035ac",
+      "name": "Shop",
+      "persistentUuid": "537e08b7-82fd-4b8e-a1f0-335b5650604b",
       "width": 0,
-      "x": 1468,
-      "y": 928,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 789,
-      "layer": "",
-      "locked": false,
-      "name": "NewSprite2",
-      "persistentUuid": "b0dac515-a16c-4617-9729-db2b11ddaf67",
-      "width": 753,
-      "x": 596,
-      "y": 0,
-      "zOrder": 13,
+      "x": 3324,
+      "y": 292,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -130,11 +98,27 @@
       "layer": "",
       "locked": false,
       "name": "Quit_Game",
-      "persistentUuid": "9d1a0962-5899-49ef-a1c6-f82ea81d340a",
+      "persistentUuid": "64b3087b-527d-4cc3-aa03-bf938dfa70da",
       "width": 0,
-      "x": 8,
-      "y": 13,
-      "zOrder": 16,
+      "x": 1408,
+      "y": 927,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PetStore",
+      "persistentUuid": "ed80f824-b17a-4a4f-8af2-3ae6f2794cb0",
+      "width": 0,
+      "x": 3412,
+      "y": -34,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -213,26 +197,6 @@
       "effects": [],
       "behaviors": [],
       "string": "Pet Store",
-      "font": "",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "FeedDog",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Feed",
       "font": "",
       "characterSize": 50,
       "color": {
@@ -699,7 +663,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Backround",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -708,7 +672,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "main bop fluff.png",
+                  "image": "Main Backround .png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -832,102 +796,6 @@
           "parameters": [
             "Quit_Game",
             "\"255;0;0\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Shop",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Shop",
-            "\"255;0;0\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Shop\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Shop",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Shop",
-            "\"0;0;0\""
           ],
           "subInstructions": []
         }
@@ -1128,98 +996,21 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "FeedDog",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "FeedDog",
-            "\"0;255;0\""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "conditions": [],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Feed doggo\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "FeedDog",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "FeedDog",
-            "\"0;0;0\""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "conditions": [],
+      "actions": [],
       "events": []
     },
     {

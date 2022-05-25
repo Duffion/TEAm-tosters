@@ -33,12 +33,28 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "PLAY",
-      "persistentUuid": "e8e9236f-08a9-4aac-b178-670e93ac704b",
+      "name": "NewSprite",
+      "persistentUuid": "a665a000-3dd2-4f62-b0f9-391cacbfedbf",
       "width": 0,
-      "x": 593,
-      "y": 356,
+      "x": -57,
+      "y": -141,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "PLAY",
+      "persistentUuid": "86416ec5-c51f-46cd-bafe-62bfd20da0bc",
+      "width": 0,
+      "x": 578,
+      "y": 321,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -64,6 +80,46 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Main Backround 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
