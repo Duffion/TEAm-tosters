@@ -20,7 +20,7 @@
     "name": "Tosters-1",
     "description": "",
     "author": "",
-    "windowWidth": 1024,
+    "windowWidth": 1800,
     "windowHeight": 1018,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
@@ -55,7 +55,188 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662720220524102550-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662720220524102550-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662820220524102604-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662820220524102604-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662820220524102604-32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662820220524102604-32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662820220524102604-33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662820220524102604-33.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662720220524102550-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662720220524102550-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662720220524102550-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662720220524102550-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "clownhat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "clownhat.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "badboyshirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "badboyshirt.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "collar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "collar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662520220524102517-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662520220524102517-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mininghat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mininghat.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "monical-bowtie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monical-bowtie.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "socks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "socks.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "suit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "suit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tophat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tophat.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00662520220524102517-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00662520220524102517-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mininghat2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mininghat2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "monical-bowtie2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monical-bowtie2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "socks2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "socks2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "suit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "suit2.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
