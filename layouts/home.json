@@ -52,8 +52,8 @@
       "name": "PetStore",
       "persistentUuid": "ce986672-338e-4562-84d0-e40d2c92bb25",
       "width": 0,
-      "x": 178,
-      "y": 923,
+      "x": 194,
+      "y": 928,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,15 +61,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 61,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "locked": false,
       "name": "CustomizeDog",
       "persistentUuid": "9a57d316-de26-4e51-903a-b5486ce89df3",
-      "width": 253,
-      "x": 737,
-      "y": 929,
+      "width": 0,
+      "x": 839,
+      "y": 928,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -109,16 +109,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 973,
       "layer": "",
       "locked": false,
-      "name": "PetStore",
-      "persistentUuid": "ed80f824-b17a-4a4f-8af2-3ae6f2794cb0",
-      "width": 0,
-      "x": 3412,
-      "y": -34,
-      "zOrder": 7,
+      "name": "NewSprite2",
+      "persistentUuid": "a8c1f577-d749-43be-9780-5e3ecbffe21d",
+      "width": 1007,
+      "x": 406,
+      "y": -102,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -800,6 +800,25 @@
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     },
     {
