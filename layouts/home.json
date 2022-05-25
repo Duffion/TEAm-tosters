@@ -110,14 +110,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 973,
+      "height": 964,
       "layer": "",
       "locked": false,
       "name": "NewSprite2",
       "persistentUuid": "a8c1f577-d749-43be-9780-5e3ecbffe21d",
-      "width": 1007,
-      "x": 406,
-      "y": -102,
+      "width": 899.6737670898438,
+      "x": 504,
+      "y": -53,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,8 +343,8 @@
               "timeBetweenFrames": 0.5,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "doc00662820220524102604-33.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "doc00664220220525095349-13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -357,26 +357,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 473.11224365234375,
-                        "y": 616.4796142578125
-                      },
-                      {
-                        "x": 612.3833618164062,
-                        "y": 626.7200927734375
-                      },
-                      {
-                        "x": 611.3593139648438,
-                        "y": 715.8126831054688
-                      },
-                      {
-                        "x": 484.3768310546875,
-                        "y": 706.59619140625
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -392,7 +373,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "doc00662720220524102550-13.png",
+                  "image": "doc00664020220525095321-13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

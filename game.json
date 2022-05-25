@@ -280,6 +280,24 @@
         "name": "Shop BAckround2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00664220220525095349-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00664220220525095349-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doc00664020220525095321-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doc00664020220525095321-13.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
