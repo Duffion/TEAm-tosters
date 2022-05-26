@@ -24,7 +24,19 @@
     "zoomFactor": 0.3712000000000003,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Top_Hat_Button",
+      "objects": [
+        {
+          "name": "Top_Hat_Price"
+        },
+        {
+          "name": "NewSprite9"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -947,6 +959,17 @@
             ""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [
@@ -960,26 +983,7 @@
             "\"0;0;255\""
           ],
           "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "HomeButton",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "inverted": false,
@@ -1062,14 +1066,56 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Top_Hat_Button",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "NewSprite9",
+            "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::ChangeColor"
+          },
+          "parameters": [
+            "Top_Hat_Price",
+            "\"155;155;155\""
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     },
     {
