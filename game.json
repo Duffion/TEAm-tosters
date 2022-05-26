@@ -406,6 +406,45 @@
         "name": "doc00662920220524140101-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bone.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Pixel art RPG Items/Collectable items/Bone.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gems_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gems_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/General Items/Gems_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gems_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gems_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/General Items/Gems_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
