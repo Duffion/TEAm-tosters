@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.21319999999999975,
+    "zoomFactor": 0.4131999999999998,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,8 +36,8 @@
       "name": "NewSprite11",
       "persistentUuid": "52694fe6-aacc-49e5-8bbd-c33a7da8f333",
       "width": 0,
-      "x": -123,
-      "y": -82,
+      "x": -237,
+      "y": -35,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,11 +129,11 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Fluef_Bones",
+      "name": "gems",
       "persistentUuid": "d40b80c6-1c85-4a62-90aa-1744a91453cc",
       "width": 0,
-      "x": 23,
-      "y": 69,
+      "x": 107,
+      "y": 196,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,16 +141,32 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 71,
       "layer": "",
       "locked": false,
       "name": "amount_of_Floof_Bones",
       "persistentUuid": "e981fe45-4b39-4df0-a314-c6072fe563da",
-      "width": 0,
-      "x": 417,
-      "y": 74,
+      "width": 179.9567413330078,
+      "x": 307,
+      "y": 200,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 112,
+      "layer": "",
+      "locked": false,
+      "name": "Gems",
+      "persistentUuid": "d0465c94-f6aa-4064-a02d-49d152dce472",
+      "width": 112,
+      "x": -1,
+      "y": 185,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -709,7 +725,7 @@
     {
       "bold": false,
       "italic": false,
-      "name": "Fluef_Bones",
+      "name": "gems",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -717,7 +733,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Floof Bones",
+      "string": "Gems",
       "font": "",
       "characterSize": 70,
       "color": {
@@ -745,6 +761,75 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "Gems",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gems_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Gems_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
