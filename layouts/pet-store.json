@@ -164,8 +164,8 @@
       "name": "NewSprite8",
       "persistentUuid": "eacd5d84-7929-4af7-9f78-1af94b331020",
       "width": 294.7128601074219,
-      "x": 950,
-      "y": 531,
+      "x": 1412.287109375,
+      "y": 501,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -180,8 +180,8 @@
       "name": "NewSprite2",
       "persistentUuid": "69aef008-5497-48a4-9f7a-8be89c127238",
       "width": 328.34356689453125,
-      "x": 1371,
-      "y": 581,
+      "x": 936.6564331054688,
+      "y": 519,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,12 +193,124 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Top_Hat",
-      "persistentUuid": "51667252-556c-41d4-ad79-cf4397a5f2ef",
+      "name": "Top_Hat_Price",
+      "persistentUuid": "50f35b9a-b197-407c-9bfc-a23cc50c0360",
       "width": 0,
-      "x": 123,
-      "y": 328,
+      "x": 97,
+      "y": 264,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "",
+      "locked": false,
+      "name": "Minor_Hat_with_sunglasses",
+      "persistentUuid": "f408e879-77fa-4500-b553-5e132385f5ed",
+      "width": 284,
+      "x": 491,
+      "y": 308,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Clown",
+      "persistentUuid": "4bbebc0c-d477-4c98-9371-011f179d6b2e",
+      "width": 0,
+      "x": 903,
+      "y": 348,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Lincon_thing",
+      "persistentUuid": "c6d36328-ef71-456d-9bfb-03330ec7c431",
+      "width": 0,
+      "x": 1368,
+      "y": 369,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Socks",
+      "persistentUuid": "1d8461b4-9dac-468a-9052-76b07ad15737",
+      "width": 0,
+      "x": 85,
+      "y": 781,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Shoes",
+      "persistentUuid": "20f105da-cb05-41c7-9001-2d51bf2b9c9c",
+      "width": 0,
+      "x": 545,
+      "y": 773,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Fancy_Shirt",
+      "persistentUuid": "79ecb36b-c0aa-47ec-9347-a77494fc1c45",
+      "width": 0,
+      "x": 962,
+      "y": 802,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Bad_Boy",
+      "persistentUuid": "66844ffe-2376-47f5-a754-7d93ac65e6bd",
+      "width": 0,
+      "x": 1418,
+      "y": 794,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -644,6 +756,166 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Top_Hat_Price",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "300 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Minor_Hat_with_sunglasses",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "800 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Clown",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1200 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Lincon_thing",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1800 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Socks",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "2500 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Shoes",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "2900 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Fancy_Shirt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "3500 gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Bad_Boy",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "8000 Gems",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -753,6 +1025,105 @@
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Top_Hat",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Purchasing buttons>",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
       "events": []
     },
     {
