@@ -475,6 +475,12 @@
       "name": "score",
       "type": "string",
       "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "costume",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [

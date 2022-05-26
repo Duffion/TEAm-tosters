@@ -32,7 +32,7 @@
           "name": "Top_Hat_Price"
         },
         {
-          "name": "NewSprite9"
+          "name": "top_hat"
         }
       ]
     }
@@ -77,7 +77,7 @@
       "height": 257,
       "layer": "",
       "locked": false,
-      "name": "NewSprite9",
+      "name": "top_hat",
       "persistentUuid": "37260cb4-3433-4da7-97bc-b979bcc114d1",
       "width": 226.5202178955078,
       "x": 124,
@@ -93,7 +93,7 @@
       "height": 325.8333435058594,
       "layer": "",
       "locked": false,
-      "name": "NewSprite5",
+      "name": "minor_hat",
       "persistentUuid": "02bfc872-7cf2-469a-a274-43529734f4c5",
       "width": 330,
       "x": 452,
@@ -109,7 +109,7 @@
       "height": 342,
       "layer": "",
       "locked": false,
-      "name": "NewSprite3",
+      "name": "clown_hat",
       "persistentUuid": "fa5b5717-9649-4b7b-afb8-ce73c2523315",
       "width": 310.59881591796875,
       "x": 887,
@@ -125,7 +125,7 @@
       "height": 395,
       "layer": "",
       "locked": false,
-      "name": "NewSprite6",
+      "name": "Lincon_Thing",
       "persistentUuid": "4ca15224-3d10-416f-8472-0c30435f3c41",
       "width": 417.3768615722656,
       "x": 1334.6231689453125,
@@ -141,7 +141,7 @@
       "height": 233.4874725341797,
       "layer": "",
       "locked": false,
-      "name": "NewSprite7",
+      "name": "socks",
       "persistentUuid": "409000b6-6b56-4b78-917c-7f495fa26e2d",
       "width": 415,
       "x": 48,
@@ -157,7 +157,7 @@
       "height": 120,
       "layer": "",
       "locked": false,
-      "name": "NewSprite",
+      "name": "shoes",
       "persistentUuid": "01d0e79d-53b3-4e93-9809-6c7f242fe399",
       "width": 340.21978759765625,
       "x": 555.7802124023438,
@@ -173,7 +173,7 @@
       "height": 242,
       "layer": "",
       "locked": false,
-      "name": "NewSprite8",
+      "name": "fancy_shirt",
       "persistentUuid": "eacd5d84-7929-4af7-9f78-1af94b331020",
       "width": 294.7128601074219,
       "x": 1412.287109375,
@@ -189,7 +189,7 @@
       "height": 223,
       "layer": "",
       "locked": false,
-      "name": "NewSprite2",
+      "name": "bad_boy",
       "persistentUuid": "69aef008-5497-48a4-9f7a-8be89c127238",
       "width": 328.34356689453125,
       "x": 936.6564331054688,
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "name": "NewSprite",
+      "name": "shoes",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "name": "NewSprite2",
+      "name": "bad_boy",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "name": "NewSprite3",
+      "name": "clown_hat",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "name": "NewSprite4",
+      "name": "collar",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -550,7 +550,7 @@
       ]
     },
     {
-      "name": "NewSprite5",
+      "name": "minor_hat",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "name": "NewSprite9",
+      "name": "top_hat",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -630,7 +630,7 @@
       ]
     },
     {
-      "name": "NewSprite6",
+      "name": "Lincon_Thing",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -670,7 +670,7 @@
       ]
     },
     {
-      "name": "NewSprite7",
+      "name": "socks",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -710,7 +710,7 @@
       ]
     },
     {
-      "name": "NewSprite8",
+      "name": "fancy_shirt",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1099,7 +1099,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite9",
+            "top_hat",
             "\"0;0;0\""
           ],
           "subInstructions": []
@@ -1153,7 +1153,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite9",
+            "top_hat",
             "\"0;0;0\""
           ],
           "subInstructions": []
@@ -1166,6 +1166,18 @@
           "parameters": [
             "Top_Hat_Price",
             "\"155;155;155\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Top_Hat\""
           ],
           "subInstructions": []
         }
@@ -1207,8 +1219,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite5",
+            "minor_hat",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Minor_Hat\""
           ],
           "subInstructions": []
         },
@@ -1261,8 +1285,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite3",
+            "clown_hat",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Clown_Hat\""
           ],
           "subInstructions": []
         },
@@ -1315,8 +1351,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite6",
+            "Lincon_Thing",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Lincon_Thing\""
           ],
           "subInstructions": []
         },
@@ -1369,8 +1417,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite7",
+            "socks",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Socks\""
           ],
           "subInstructions": []
         },
@@ -1423,8 +1483,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite",
+            "shoes",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Shoes\""
           ],
           "subInstructions": []
         },
@@ -1477,8 +1549,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite8",
+            "fancy_shirt",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Fancy_Shirt\""
           ],
           "subInstructions": []
         },
@@ -1531,8 +1615,20 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite2",
+            "bad_boy",
             "\"0;0;0\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Bad_Boy_Shirt\""
           ],
           "subInstructions": []
         },

@@ -24,7 +24,22 @@
     "zoomFactor": 0.21319999999999975,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Hats",
+      "objects": [
+        {
+          "name": "Minor_Hat"
+        },
+        {
+          "name": "Top_Hat"
+        },
+        {
+          "name": "Clown"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -33,7 +48,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "NewSprite11",
+      "name": "rainbow_Backround",
       "persistentUuid": "52694fe6-aacc-49e5-8bbd-c33a7da8f333",
       "width": 0,
       "x": -237,
@@ -97,7 +112,7 @@
       "height": 964,
       "layer": "",
       "locked": false,
-      "name": "NewSprite2",
+      "name": "Pug",
       "persistentUuid": "a8c1f577-d749-43be-9780-5e3ecbffe21d",
       "width": 899.6737670898438,
       "x": 504,
@@ -238,7 +253,7 @@
       }
     },
     {
-      "name": "NewSprite4",
+      "name": "Bad_boy",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -278,7 +293,7 @@
       ]
     },
     {
-      "name": "NewSprite5",
+      "name": "Collar",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -318,7 +333,7 @@
       ]
     },
     {
-      "name": "NewSprite",
+      "name": "Test_Dog",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -358,7 +373,7 @@
       ]
     },
     {
-      "name": "NewSprite2",
+      "name": "Pug",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -427,7 +442,7 @@
       ]
     },
     {
-      "name": "NewSprite3",
+      "name": "Clown",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -467,7 +482,7 @@
       ]
     },
     {
-      "name": "NewSprite6",
+      "name": "Car",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -507,7 +522,7 @@
       ]
     },
     {
-      "name": "NewSprite7",
+      "name": "Minor_Hat",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -547,7 +562,7 @@
       ]
     },
     {
-      "name": "NewSprite8",
+      "name": "Lincon_Thing",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -587,7 +602,7 @@
       ]
     },
     {
-      "name": "NewSprite9",
+      "name": "Socks",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -627,7 +642,7 @@
       ]
     },
     {
-      "name": "NewSprite10",
+      "name": "Fancy_Shirt",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -667,7 +682,7 @@
       ]
     },
     {
-      "name": "NewSprite11",
+      "name": "rainbow_Backround",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -795,6 +810,46 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Gems_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Top_Hat",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "tophat.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1189,7 +1244,7 @@
             "value": "SetAnimationName"
           },
           "parameters": [
-            "NewSprite2",
+            "Pug",
             "\"dog 2\""
           ],
           "subInstructions": []
@@ -1217,7 +1272,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "NewSprite2",
+            "Pug",
             "",
             "",
             ""
@@ -1232,13 +1287,26 @@
             "value": "SetAnimationName"
           },
           "parameters": [
-            "NewSprite2",
+            "Pug",
             "\"dog 1\""
           ],
           "subInstructions": []
         }
       ],
       "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Coin Counter>",
+      "comment2": ""
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1297,6 +1365,19 @@
       "events": []
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Easter egg/amungus>",
+      "comment2": ""
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1318,7 +1399,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite2",
+            "Pug",
             "\"0;0;0\""
           ],
           "subInstructions": []
@@ -1329,7 +1410,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "NewSprite11",
+            "rainbow_Backround",
             "\"255;0;0\""
           ],
           "subInstructions": []
@@ -1340,7 +1421,7 @@
             "value": "FlipY"
           },
           "parameters": [
-            "NewSprite2",
+            "Pug",
             "yes"
           ],
           "subInstructions": []
@@ -1372,6 +1453,41 @@
           "parameters": [
             "",
             "\"Untitled scene\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Unlockables>",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "Hats",
+            "GlobalVariableString(costume)",
+            "770",
+            "-100",
             ""
           ],
           "subInstructions": []
