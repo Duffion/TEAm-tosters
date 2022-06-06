@@ -481,6 +481,12 @@
       "name": "costume",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "Minercostume",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [

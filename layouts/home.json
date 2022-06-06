@@ -29,13 +29,18 @@
       "name": "Hats",
       "objects": [
         {
-          "name": "Minor_Hat"
-        },
-        {
           "name": "Top_Hat"
         },
         {
-          "name": "Clown"
+          "name": "Minor_Hat"
+        }
+      ]
+    },
+    {
+      "name": "Miner",
+      "objects": [
+        {
+          "name": "Minor_Hat"
         }
       ]
     }
@@ -109,14 +114,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 964,
+      "height": 729,
       "layer": "",
       "locked": false,
       "name": "Pug",
       "persistentUuid": "a8c1f577-d749-43be-9780-5e3ecbffe21d",
-      "width": 899.6737670898438,
-      "x": 504,
-      "y": -53,
+      "width": 725,
+      "x": 577,
+      "y": 181,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1475,7 +1480,20 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Top_Hat\""
+          ],
+          "subInstructions": []
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -1488,6 +1506,54 @@
             "GlobalVariableString(costume)",
             "770",
             "-100",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Lockable>",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Minor_Hat\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "Hats",
+            "GlobalVariableString(costume)",
+            "770",
+            "100",
             ""
           ],
           "subInstructions": []
