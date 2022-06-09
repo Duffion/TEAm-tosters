@@ -33,6 +33,9 @@
         },
         {
           "name": "Minor_Hat"
+        },
+        {
+          "name": "Clown"
         }
       ]
     },
@@ -1552,8 +1555,43 @@
             "",
             "Hats",
             "GlobalVariableString(costume)",
-            "770",
-            "100",
+            "700",
+            "90",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "costume",
+            "=",
+            "\"Clown_Hat\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "Hats",
+            "GlobalVariableString(costume)",
+            "700",
+            "90",
             ""
           ],
           "subInstructions": []

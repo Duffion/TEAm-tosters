@@ -1261,7 +1261,7 @@
           "parameters": [
             "score",
             ">=",
-            "300"
+            "0"
           ],
           "subInstructions": []
         }
